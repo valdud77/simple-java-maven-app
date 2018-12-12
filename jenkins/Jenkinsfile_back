@@ -23,7 +23,8 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                sh './jenkins/scripts/deliver.sh'
+                echo 'testtt'
+                //sh './jenkins/scripts/deliver.sh'
             }
         }
     }
